@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Operaciones - Aplicaciones Web 1</title>
+		<link href="estilos.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="img/operaciones.png" type="image/x-icon">
+	</head>
+	<body>
+		<script type="text/javascript">
+			var n1 = prompt("Ingrese primer número");
+		    var n2 = prompt("Ingrese segundo número");
+		    var contador =0;
+		    while(contador <5){
+		    	contador++;
+		    	if(contador==1){
+				    alert("La suma de "+ n1 + " y "+ n2 + " es: ");
+			    	alert(parseInt(n1)+parseInt(n2));
+		    	}else{
+		    		if(contador==2){
+				    	alert("La resta de "+ n1 + " y "+ n2 + " es: ");
+				    	alert(parseInt(n1)-parseInt(n2));
+		    		}else{
+		    			if(contador==3){
+					    	alert("La multiplicación de "+ n1 + " y "+ n2 + " es: ");
+					    	alert(parseInt(n1)*parseInt(n2));
+		    			}else{
+		    				if(contador==4){
+		    					alert("La división de "+ n1 + " y "+ n2 + " es: ");
+		    					alert(parseInt(n1)/parseInt(n2));
+		    				}else{
+						    	alert("El Mod de "+ n1 + " y "+ n2 + " es: ");
+						    	alert(parseInt(n1)%parseInt(n2));
+		    				}
+		    			}
+		    		}
+		    	}
+		    }
+		</script>    
+	</body>
+</html>
